@@ -8,8 +8,15 @@ The goal is to identify business insights such as:
 - Cancellation Trends,
 - Inactive Customer.
 
+# Tools and Skill Used this Project:
+- SQL
+  1) Join (Inner Join, Left Join).
+  2) Aggregations (SUM, COUNT, AVG)
+  3) Subqueries
+  4) Business Analysis
 
-# Database used: Transaction
+# Database used:
+- Transaction
 
 # Datasets Used:
 -- Transaction Table:
@@ -29,6 +36,27 @@ The goal is to identify business insights such as:
 - gender
 - city
 
+# Project Structure:
+
+Transaction-and-Customer-Performance-Analysis-SQL/
+│
+├── README.md
+├── Data/
+│   ├── Customer.csv
+│   └── Transaction.csv
+│
+├── Queries/
+│   ├── 01_Data_Quality.sql
+│   ├── 02_KPI.sql
+│   ├── 03_City_Analysis.sql
+│   ├── 05_Time_Analysis.sql
+│   ├── 06_Risk_and_Inactive_Customers.sql
+│   └── 07_Advance_Queries.sql
+│
+└── Insights/
+    └── Business_Insights.md
+
+
 # Business Problem:
 1) Who are the best customers?
 2) Which cities bring most revenue?
@@ -36,12 +64,7 @@ The goal is to identify business insights such as:
 4) How customer behavior changes over time?
 5) Which customers are risky or inactive?
 
-# Tools and Skill Used this Project:
-- SQL
-  1) Join (Inner Join, Left Join).
-  2) Aggregations (SUM, COUNT, AVG)
-  3) Subqueries
-  4) Business Analysis
+
 
 # Analysis Performed:
 1) Data Quality Checks.
