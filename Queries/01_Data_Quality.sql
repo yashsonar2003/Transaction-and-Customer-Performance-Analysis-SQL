@@ -3,8 +3,13 @@ use transaction;
 # Data Quality:
 
 -- 1) Total Rows:
-select count(*) from transaction;
-select count(*) from customer;
+select
+	count(*) as total_rows_in_transaction
+from transaction;
+
+select
+	count(*) as total_rows_in_customer
+from customer;
 
 -- 2) Check missing customer in transactions:
 select count(*) as missing_customers
