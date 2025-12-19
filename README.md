@@ -1,2 +1,61 @@
 # Transaction-and-Customer-Performance-Analysis-SQL
-End-To-End SQL Project analysising transaction and customer data
+
+# Project Overview:
+This project perform an end-to-end SQL analysis on Transaction and Customer data.
+The goal is to identify business insights such as:
+- Top Customer,
+- High-Revenue Cities,
+- Cancellation Trends,
+- Inactive Customer.
+
+
+# Database used: Transaction
+
+# Datasets Used:
+-- Transaction Table:
+- transaction_id
+- customer_id
+- product_id
+- quantity
+- amount
+- status
+- city
+- transaction_date
+
+-- Customer Table:
+- customer_id
+- customer_name
+- age
+- gender
+- city
+
+# Business Problem:
+1) Who are the best customers?
+2) Which cities bring most revenue?
+3) Which locations have high cancellation rates?
+4) How customer behavior changes over time?
+5) Which customers are risky or inactive?
+
+# Tools and Skill Used this Project:
+- SQL
+  1) Join (Inner Join, Left Join).
+  2) Aggregations (SUM, COUNT, AVG)
+  3) Subqueries
+  4) Business Analysis
+
+# Analysis Performed:
+1) Data Quality Checks.
+2) Revenue and Transaction KPI's.
+3) City-Wise Performance Analysis.
+4) Customer Behavior Analysis.
+5) Ranking Top Customer using Window functions.
+6) Identifying Risky and Inactive Customers.
+7) Time-Based Revenue Treands.
+
+# Key Outcomes:
+- Identified Top Revenue-Generating Customers.
+- Found Cities with High Revenue and High Cancellation Rates.
+- Detected Inactive Customers for Re-engagement
+- Highlighted Risk Areas Affecting Business Performance.
+
+---
