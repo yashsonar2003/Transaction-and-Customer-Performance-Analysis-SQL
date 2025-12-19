@@ -1,5 +1,6 @@
 # Transaction-and-Customer-Performance-Analysis-SQL
 
+
 # Project Overview:
 This project perform an end-to-end SQL analysis on Transaction and Customer data.
 The goal is to identify business insights such as:
@@ -8,12 +9,14 @@ The goal is to identify business insights such as:
 - Cancellation Trends,
 - Inactive Customer.
 
+
 # Tools and Skill Used this Project:
 - SQL
   1) Join (Inner Join, Left Join).
   2) Aggregations (SUM, COUNT, AVG)
   3) Subqueries
   4) Business Analysis
+
 
 # Database used:
 - Transaction
@@ -36,26 +39,11 @@ The goal is to identify business insights such as:
 - gender
 - city
 
-# Project Structure:
 
-Transaction-and-Customer-Performance-Analysis-SQL/
-│
-├── README.md
-├── Data/
-│   ├── Customer.csv
-│   └── Transaction.csv
-│
-├── Queries/
-│   ├── 01_Data_Quality.sql
-│   ├── 02_KPI.sql
-│   ├── 03_City_Analysis.sql
-│   ├── 04_Customer_Analysis.sql
-│   ├── 05_Time_Analysis.sql
-|   ├── 06_Risk_and_Inactive_Customers.sql
-│   └── 07_Advance_Queries.sql
-│
-└── Insights/
-    └── Business_Insights.md
+# Project Structure:
+- Data/ : Conatain Raw Transaction and Customer datasets.
+- Queries/ : SQL Queries for analysis and insights.
+- Insights/ : Business findings and recommendations.
 
 
 # Business Problem:
@@ -75,6 +63,7 @@ Transaction-and-Customer-Performance-Analysis-SQL/
 5) Ranking Top Customer using Window functions.
 6) Identifying Risky and Inactive Customers.
 7) Time-Based Revenue Treands.
+
 
 # Key Outcomes:
 - Identified Top Revenue-Generating Customers.
