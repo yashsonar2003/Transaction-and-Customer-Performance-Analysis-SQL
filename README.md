@@ -49,8 +49,9 @@ Transaction-and-Customer-Performance-Analysis-SQL/
 │   ├── 01_Data_Quality.sql
 │   ├── 02_KPI.sql
 │   ├── 03_City_Analysis.sql
+│   ├── 04_Customer_Analysis.sql
 │   ├── 05_Time_Analysis.sql
-│   ├── 06_Risk_and_Inactive_Customers.sql
+|   ├── 06_Risk_and_Inactive_Customers.sql
 │   └── 07_Advance_Queries.sql
 │
 └── Insights/
