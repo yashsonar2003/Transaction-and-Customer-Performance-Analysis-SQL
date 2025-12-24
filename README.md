@@ -1,4 +1,4 @@
-# Transaction-and-Customer-Performance-Analysis-SQL
+# Transaction and Customer Performance Analysis SQL
 
 
 # Project Overview:
@@ -9,6 +9,7 @@ The goal is to identify business insights such as:
 - Cancellation Trends,
 - Inactive Customer.
 
+-----
 
 # Tools and Skill Used this Project:
 - SQL
@@ -17,6 +18,7 @@ The goal is to identify business insights such as:
   3) Subqueries
   4) Business Analysis
 
+-----
 
 # Database used:
 - Transaction
@@ -39,12 +41,14 @@ The goal is to identify business insights such as:
 - gender
 - city
 
+-----
 
 # Project Structure:
 - Data/ : Conatain Raw Transaction and Customer datasets.
 - Queries/ : SQL Queries for analysis and insights.
 - Insights/ : Business findings and recommendations.
 
+-----
 
 # Business Problem:
 1) Who are the best customers?
@@ -53,7 +57,7 @@ The goal is to identify business insights such as:
 4) How customer behavior changes over time?
 5) Which customers are risky or inactive?
 
-
+-----
 
 # Analysis Performed:
 1) Data Quality Checks.
@@ -64,6 +68,7 @@ The goal is to identify business insights such as:
 6) Identifying Risky and Inactive Customers.
 7) Time-Based Revenue Treands.
 
+-----
 
 # Key Outcomes:
 - Identified Top Revenue-Generating Customers.
@@ -71,4 +76,4 @@ The goal is to identify business insights such as:
 - Detected Inactive Customers for Re-engagement
 - Highlighted Risk Areas Affecting Business Performance.
 
----
+-----
