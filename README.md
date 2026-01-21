@@ -1,7 +1,7 @@
 # Transaction and Customer Performance Analysis SQL
 
 
-# Project Overview:
+# Project Overview:-
 This project perform an end-to-end SQL analysis on Transaction and Customer data.
 The goal is to identify business insights such as:
 - Top Customer,
@@ -11,7 +11,7 @@ The goal is to identify business insights such as:
 
 -----
 
-# Tools and Skill Used this Project:
+# Tools and Skill:-
 - SQL
   1) Join (Inner Join, Left Join).
   2) Aggregations (SUM, COUNT, AVG)
@@ -20,10 +20,7 @@ The goal is to identify business insights such as:
 
 -----
 
-# Database used:
-- Transaction
-
-# Datasets Used:
+# Datasets Used:-
 -- Transaction Table:
 - transaction_id
 - customer_id
@@ -34,7 +31,7 @@ The goal is to identify business insights such as:
 - city
 - transaction_date
 
--- Customer Table:
+-- Customer Table:-
 - customer_id
 - customer_name
 - age
@@ -43,14 +40,14 @@ The goal is to identify business insights such as:
 
 -----
 
-# Project Structure:
+# Project Structure:-
 - Data/ : Conatain Raw Transaction and Customer datasets.
 - Queries/ : SQL Queries for analysis and insights.
 - Insights/ : Business findings and recommendations.
 
 -----
 
-# Business Problem:
+# Business Problem:-
 1) Who are the best customers?
 2) Which cities bring most revenue?
 3) Which locations have high cancellation rates?
@@ -59,7 +56,7 @@ The goal is to identify business insights such as:
 
 -----
 
-# Analysis Performed:
+# Analysis Performed:-
 1) Data Quality Checks.
 2) Revenue and Transaction KPI's.
 3) City-Wise Performance Analysis.
@@ -70,7 +67,7 @@ The goal is to identify business insights such as:
 
 -----
 
-# Key Outcomes:
+# Key Outcomes:-
 - Identified Top Revenue-Generating Customers.
 - Found Cities with High Revenue and High Cancellation Rates.
 - Detected Inactive Customers for Re-engagement
